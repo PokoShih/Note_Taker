@@ -58,5 +58,5 @@ app.delete("/api/notes/:id", function(req, res) {
 })
 
 app.listen(PORT, function() {
-    console.log(`Now listening to port ${port}. Enjoy your stay!`);
+    console.log(`Now listening to port ${PORT}. Enjoy your stay!`);
 })
